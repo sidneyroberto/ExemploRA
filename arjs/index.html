@@ -13,7 +13,7 @@
 <body>
 
     <a-scene embedded arjs="sourceType: webcam;">
-        <a-marker preset="hiro">
+        <a-marker type='pattern' url='/models/wolf.patt'>
             <!-- Adding an OBJ file to an AR Project-->
             <a-entity obj-model="obj: url(/models/wolf.obj); mtl: url(/models/wolf.mtl)"> </a-entity>
         </a-marker>
